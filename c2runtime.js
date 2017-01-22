@@ -23028,6 +23028,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.TiledBg.prototype.acts.SetVisible,
 	cr.behaviors.Fade.prototype.acts.StartFade,
 	cr.plugins_.Touch.prototype.cnds.OnHoldGesture,
+	cr.plugins_.TiledBg.prototype.cnds.IsVisible,
 	cr.plugins_.Touch.prototype.cnds.OnTouchStart,
 	cr.plugins_.Sprite.prototype.acts.SetAngle,
 	cr.plugins_.Sprite.prototype.cnds.IsClockwiseFrom,
